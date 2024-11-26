@@ -1,6 +1,6 @@
 import './App.css';
-import Footer from './common/Footer';
 import AboutUs from './components/AboutUs';
+import Footer from './components/common/Footer';
 import Hero from './components/Hero';
 
 function App() {
