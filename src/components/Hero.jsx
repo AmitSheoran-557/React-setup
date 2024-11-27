@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeroImg from '../assets/image/png/hero-img.png'
+ 
 
 const Hero = () => {
-  return (
 
+  return (
     <div className='bg-black  min-h-screen pt-5 items-center justify-center'>
       <div className="container mx-auto">
         <div className="flex flex-wrap lg:mb-8 mb-6">
@@ -34,7 +35,7 @@ const Hero = () => {
              
           </div>
           <div className="lg:w-6/12 w-full px-3 flex justify-center flex-col">
-            <img className="max-w-[707px]" src={HeroImg}
+            <img className="max-w-[707px]" src={HeroImg}  
               alt="character-img" />
           </div>
         </div>
